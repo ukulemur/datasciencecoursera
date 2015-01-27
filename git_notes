@@ -1,0 +1,44 @@
+1)
+git add. adds new files
+git add -u updates tracking for files that changed names or were deleted
+git add -A does both above
+
+2)
+
+mv [~/file current location] [working directory]
+git add text.csv
+	(add . means all)
+git commit -m "this is a whatever"
+	(this is still local)
+git push origin master
+	(takes all changes you've committed, pushed them to remote directory)
+
+2a) making a new branch
+git checkout - b branchname 
+	(switches to the branch)
+git branch
+	(tells you what branch you’re in)
+git checkout master
+	(lets you look at master branch)
+
+gitinit 
+	(create a new local repository)
+
+git clone /path/to/repository
+	(check out a repository)
+
+updating from remote repo
+git pull
+	(fetch and merge changes on the remote server to your directory)
+git merge <branchname>
+git diff
+	(view merge conflicts)
+
+open file.csv
+open -a ‘sublime text’ file.csv
+open -t file.csv
+
+git remote show origin
+
+
+
