@@ -39,6 +39,7 @@ open -a ‘sublime text’ file.csv
 open -t file.csv
 
 git remote show origin
+	- shows where you’re at
 
 
 
